@@ -33,7 +33,7 @@
         speed: Number(this.speed) || 50, // 变换速度
         times: Number(this.times) || 10, // 变换次数
         startNum: Number(this.startNum) || 0, // 起始数量
-        endNum: Number(this.endNum) || 100 // 到达数量
+        endNum: Number(this.endNum) || 0 // 到达数量
       })
     },
     watch: {
@@ -42,7 +42,7 @@
           speed: Number(this.speed) || 50, // 变换速度
           times: Number(this.times) || 10, // 变换次数
           startNum: Number(oldValue) || 0, // 起始数量
-          endNum: Number(newValue) || 100 // 到达数量
+          endNum: Number(newValue) || 0 // 到达数量
         })
       }
     },
