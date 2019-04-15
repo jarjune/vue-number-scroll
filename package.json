@@ -1,7 +1,7 @@
 {
   "name": "vue-number-scroll",
   "description": "number scroll",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "jarjune <408100801@qq.com>",
   "license": "MIT",
   "main": "dist/index.js",

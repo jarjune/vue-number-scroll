@@ -91,7 +91,7 @@
         }
         // 如果增加，并且数组最后一位比end小，则push最后一位；如果减少，并且数组最后一位比end大，则push最后一位
         ((add && (splitArr[splitArr.length-1] < defaultParams.endNum)) || (!add && (splitArr[splitArr.length-1] > defaultParams.endNum))) && splitArr.push(defaultParams.endNum);
-        console.log(splitArr)
+        // console.log(splitArr)
         var _index = 0;
 
         var _this = this;
