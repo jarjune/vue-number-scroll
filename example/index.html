@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<body>
+<div id="app">
+    <p>排名：<vns :end="10" :speed="80" :times="20" :format="num => '第' + num + '名'"/></p>
+    <p>金额：<vns :end="159526264" :speed="20" :times="50" :format="formatMoney"/></p>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<script src="../dist/vue-number-scroll.js"></script>
+<script>
+new Vue({
+    el: '#app',
+    methods: {
+        formatMoney(num) {
+            let reg = /\d{1,3}(?=(\d{3})+$)/g;   
+            return (num + '').replace(reg, '$&,') + '元';
+        }
+    }
+})
+</script>
+</html>

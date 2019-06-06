@@ -2,11 +2,11 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/vue-number-scroll.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'index.js',
+    filename: 'vue-number-scroll.js',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
