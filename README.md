@@ -1,3 +1,5 @@
+> 点个**star**可好(\*╹▽╹\*)
+
 # 效果
 
 [在线演示](https://jarjune.github.io/vue-number-scroll/example/index.html "vue-number-scroll")
@@ -32,8 +34,8 @@
 |-|-|-|
 |speed|50|跳转的间隔时间|
 |times|10|从开始到结束，变换的次数|
-|startNum|0|起始数值|
-|endNum|0|目标达到的数值|
+|start|0|起始数值|
+|end|0|目标达到的数值|
 
 ## 例子
 
