@@ -41,5 +41,5 @@
 
 ```vue
 	排名：<vns :start="0" :end="99" :speed="80" :times="20" :format="num => '第' + num + '名'"/>
-    金额：<vns :start="0" :end="18299.5" :speed="80" :times="10" :format="num => num + '元'"/>
+	金额：<vns :start="0" :end="18299.5" :speed="80" :times="10" :format="num => num + '元'"/>
 ```
